@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: -400px;
+}
+
+header {
+    width: 100vw;
+    background-color: #007fff;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+header .logo {
+    width: 125px;
+    background-color: #007fff;
+    margin-top: 5px;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 250ms ease-in-out;
+    padding: 2rem;
+}
+
+nav ul a:hover {
+    color: white;
+    background-color: #4169e1;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url(../images/heroimage.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item01 {
+    height: 250px;
+    margin-top: 10px;
+    background-color: #0197f6;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+[class~=item01] {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item02,
+.item03,
+.item04 {
+    width: 20%;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 120px;
+    background-color: cornflowerblue;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item02 h2 {
+    font-size: 40px;
+    margin-bottom: -1px;
+}
+
+.item02 p {
+    font-size: 25px;
+    margin-top: -1px;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+}
+
+.item05,
+.item06,
+.item07,
+.item08,
+.item09,
+.item10 {
+    background-color: #0197f6;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-content {
+    width:1280px;
+    display: flex;
+}
+
+footer section {
+    width: 30%;
+}
