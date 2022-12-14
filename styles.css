@@ -17,13 +17,11 @@ header {
     background-color: #007fff;
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    height: 150px;
 }
 
 header .logo {
-    width: 125px;
-    background-color: #007fff;
-    margin-top: 5px;
+    width: 200px;
 }
 
 header nav {
@@ -122,29 +120,92 @@ p {
     margin-top: -1px;
 }
 
-img {
-    height: 250px;
+.item03 h2 {
+    font-size: 40px;
+    margin-bottom: -1px;
+}
+
+.item03 p {
+    font-size: 25px;
+    margin-top: -1px;
+}
+
+.item04 h2 {
+    font-size: 40px;
+    margin-bottom: -1px;
+}
+
+.item04 p {
+    font-size: 20px;
+    margin-top: -1px;
+}
+
+.item05 {
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 47%;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.item06 {
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 47%;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.item07 {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.item07 img {
+    height: 600px;
+}
+
+.item02 img {
+    height: 200px;
     width: 100%;
 }
 
-.item05,
-.item06,
-.item07,
-.item08,
-.item09,
-.item10 {
-    background-color: #0197f6;
+.item03 img {
+    height: 200px;
     width: 100%;
-    margin-bottom: 10px;
+}
+
+.item04 img {
+    height: 200px;
+    width: 100%;
+}
+
+.item07 img {
+    width: 100%;
+    height: 600px;
 }
 
 footer {
     width: 100vw;
-    background-color: black;
+    background-color: #007fff;
     color: white;
     display: flex;
     justify-content: space-around;
-    
+    height: 300px;
+    font-size: 30px;
+    border: black 5px solid;
 }
 
 .footer-content {
@@ -153,5 +214,15 @@ footer {
 }
 
 footer section {
-    width: 30%;
+    width: 50%;
+}
+
+footer h3 {
+    font-size: 40px;
+    align-items: center;
+    color: white;
+}
+
+footer h2 {
+    margin-bottom: -10px;
 }
